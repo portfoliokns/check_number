@@ -22,7 +22,7 @@
 
 1. このリポジトリをクローンする
 
-1. ライブラリをインストールする（Bottle,numpy,Pillow,pickle）
+1. ライブラリをインストールする（Bottle,numpy,Pillow,pickle,scikit-learn）
 ```
 pip install bottle
 ```
@@ -35,6 +35,11 @@ pip install Pillow
 ```
 pip install pickle 
 ```
+```
+pip install scikit-learn
+```
+※もし警告が出るようであれば、"pip install scikit-learn==1.4.2"などで、ダウングレードを行う。
+
 
 # 注意事項
 - 使用する画像は、利用者の判断の下で設定して下さい。
